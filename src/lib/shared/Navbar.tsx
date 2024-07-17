@@ -25,7 +25,7 @@ const Navbar = () => {
                 <button onClick={() => signOutAccount()}>
                     <img src = {logout} />
                 </button>
-                <Link to={`/profile/${user.id}`}><img src = {user.imageUrl || profile_placeholder} className='rounded-full h-[30px] w-[30px]'/></Link>
+                <Link to={`/profile/${user.id}`}><img src = {user.imageUrl || profile_placeholder} className='rounded-full h-[30px] w-[30px] object-cover'/></Link>
            </div>
         </div>
     </section>
