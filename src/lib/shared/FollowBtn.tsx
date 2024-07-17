@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useFollowUser } from '../react-query/queriesAndMutation'
 import Loader from './Loader'
 import { Models } from 'appwrite'
@@ -10,7 +10,7 @@ type FollowBtnProps = {
 
 const FollowBtn = ({currentUser , selectedUser} : FollowBtnProps) => {
 
-    const {mutateAsync: followUser , isPending , isSuccess} = useFollowUser();
+    const {mutateAsync: followUser , isPending} = useFollowUser();
 
     const handleClick = () => followUser({currentUser: currentUser  , selectedUser: selectedUser})
 

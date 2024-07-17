@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import SignIn from './auth/forms/SignIn'
 import Layout from './auth/AuthLayout'

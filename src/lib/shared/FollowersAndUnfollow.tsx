@@ -1,4 +1,3 @@
-import React from 'react'
 import FollowBtn from './FollowBtn'
 import UnFollowBtn from './UnFollowBtn'
 import { Models } from 'appwrite'

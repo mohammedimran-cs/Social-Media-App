@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { FileWithPath, useDropzone } from 'react-dropzone'
 import file_upload from '../../../public/assets/icons/file-upload.svg'
 import { Button } from '@/components/ui/button';

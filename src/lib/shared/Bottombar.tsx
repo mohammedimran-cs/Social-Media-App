@@ -1,6 +1,5 @@
 import { BottomLinks } from '@/constants'
 import { ILinks } from '@/types'
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 const Bottombar = () => {

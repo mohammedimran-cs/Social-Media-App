@@ -1,4 +1,3 @@
-import React from 'react'
 import edit from '../../../public/assets/icons/edit.svg'
 import { Models } from 'appwrite';
 import { formatDistanceToNow } from 'date-fns';

@@ -1,4 +1,3 @@
-import React from 'react'
 import AddPost from '../../public/assets/icons/add-post.svg' 
 import PostForm from '@/components/forms/PostForm'
 import { Models } from 'appwrite'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 import myImage from '../../public/assets/images/side-img.svg'
 import { useUserContext } from '@/context/AuthProvider'

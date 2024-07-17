@@ -1,5 +1,3 @@
-import { Models } from 'appwrite'
-import React from 'react'
 import PostStats from './PostStats'
 import { IUser } from '@/types'
 import { Link } from 'react-router-dom'

@@ -6,7 +6,6 @@ import { Models } from 'appwrite';
 import { Link, useParams } from 'react-router-dom';
 import edit from '../../public/assets/icons/edit.svg'
 import TabsForPosts from '@/lib/shared/TabsForPosts';
-import profile from '../../public/assets/icons/profile-placeholder.svg'
 import { useEffect } from 'react';
 
 
@@ -16,7 +15,7 @@ const Profile = () => {
 
   // console.log('render in id' ,id)
 
-  const {data : user , isPending : isUserLoading , isRefetching} = useGetUserById(id);
+  const {data : user , isPending : isUserLoading} = useGetUserById(id);
   const {data : currentUser , isPending} = useGetCurrentUser();
 
   useEffect(() => {
