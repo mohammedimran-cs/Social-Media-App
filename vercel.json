@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      { "source": "/explore", "destination": "/index.html" },
+      { "source": "/all-users", "destination": "/index.html" },
+      { "source": "/saved", "destination": "/index.html" },
+      { "source": "/create-post", "destination": "/index.html" },
+      { "source": "/post/:id", "destination": "/index.html" },
+      { "source": "update-post/:id", "destination": "/index.html" },
+      { "source": "/profile/:id", "destination": "/index.html" },
+      { "source": "/update-profile/:id", "destination": "/index.html" }
+    ]
+  }
+  
