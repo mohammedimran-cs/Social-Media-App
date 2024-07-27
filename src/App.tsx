@@ -5,10 +5,18 @@ import Signup from './auth/forms/Signup'
 import { Toaster } from './components/ui/toaster'
 import RootLayout from './root/RootLayout'
 import { CreatePost, EditPost, Explore, Home, People, PostDetails, Profile, Saved, UpdateProfile } from './pages'
-
+import ReactGA from 'react-ga4';
+import { useEffect } from 'react'
 
 
 const App = () => {
+
+  ReactGA.initialize('G-4T30H5YTEB');
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <main className='flex h-screen'>
         <Routes>

@@ -37,7 +37,7 @@ const PostDetails = () => {
             <>
               <img
                 src={post?.imageUrl}
-                className={`max-h-[300px] object-cover object-top w-full rounded-md rounded-r-none`}
+                className={`max-h-[300px] object-cover object-top w-full rounded-md lg:rounded-r-none `}
               />
             </>
         </div>
